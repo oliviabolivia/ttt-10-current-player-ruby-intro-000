@@ -1,6 +1,7 @@
 board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 def turn_count(board)
+
   count = 0 |position|
   board.each do
     turns = 0
@@ -8,6 +9,7 @@ def turn_count(board)
       count += 1
     end
   end
+  count
 end
 
 def current_player(board)
