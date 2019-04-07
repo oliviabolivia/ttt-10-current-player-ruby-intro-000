@@ -1,9 +1,10 @@
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  count = 3
-  board.each do |team|
-    if team == "X" || team == "O"
+  count = 0 |element|
+  board.each do
+    turns = 0
+    if element == "X" || element == "O"
       count += 1
     end
   end
