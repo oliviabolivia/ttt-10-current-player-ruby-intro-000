@@ -1,4 +1,4 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "O"]
 
 def turn_count(board)
   count = 0 |element|
